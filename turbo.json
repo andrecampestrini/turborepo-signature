@@ -1,7 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "remoteCache": {
-    "signature": true
+    "signature": false
   },
   "pipeline": {
     "example-app#build": {
