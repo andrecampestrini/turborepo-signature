@@ -1,4 +1,7 @@
 const fs = require("fs");
 
-fs.mkdirSync("./build/");
+if (!fs.existsSync("./build/")) {
+  fs.mkdirSync("./build/");
+}
+
 fs.writeFileSync("./build/output.js", "noop;");
