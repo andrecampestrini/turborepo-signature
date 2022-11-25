@@ -7,9 +7,10 @@ on:
     branches: ["master"]
 
 jobs:
-  runs-on: ubuntu-latest
   turborepo-signature:
     name: Example App
+
+    runs-on: ubuntu-latest
 
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
