@@ -1,0 +1,13 @@
+{
+  "name": "turborepo-signature",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "turbo run build"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}
