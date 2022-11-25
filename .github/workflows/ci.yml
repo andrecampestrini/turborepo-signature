@@ -31,7 +31,9 @@ jobs:
           cache: "npm"
 
       - name: Install
-        run: npm install
+        run: |
+          npm i -g npm
+          npm install
 
       - name: Build
         run: npm run build -- -vvv
