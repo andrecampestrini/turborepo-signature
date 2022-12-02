@@ -4,4 +4,4 @@ if (!fs.existsSync("./build/")) {
   fs.mkdirSync("./build/");
 }
 
-fs.writeFileSync("./build/output.js", "noop; 900;");
+fs.writeFileSync("./build/output.js", "noop; 1000;");
