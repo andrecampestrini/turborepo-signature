@@ -7,7 +7,7 @@
     "example-app#build": {
       "cache": true,
       "inputs": ["build.js"],
-      "outputs": ["build/output.js"]
+      "outputs": ["build/**"]
     }
   }
 }
